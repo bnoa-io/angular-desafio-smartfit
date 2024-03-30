@@ -1,0 +1,14 @@
+.footer {
+  background-color: var(--dark-grey);
+  height: 30dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+  color: var(--text-color-light);
+}
+
+.footer > img {
+  width: 15rem;
+}
