@@ -1,0 +1,30 @@
+.header-image {
+  background-color: var(--dark);
+  padding: 3.2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.header-image > img {
+  width: 20rem;
+}
+
+.header-content {
+  color: var(--dark-grey);
+  padding: 6.4rem;
+}
+
+.header-content > h1 {
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-weight: 600;
+  margin-bottom: 3.2rem;
+}
+
+.header-content > h1::after {
+  content: "";
+  display: block;
+  background-color: var(--dark-grey);
+  width: 10rem;
+  height: .7rem;
+}
